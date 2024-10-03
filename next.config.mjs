@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    reactStrictMode: true,
+    images: {
+      domains: ['image.pollinations.ai'], // Add your image domains here
+    },
+  };
+  
+  export default nextConfig;
+  
